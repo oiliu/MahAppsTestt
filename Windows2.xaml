@@ -1,0 +1,13 @@
+﻿<Controls:MetroWindow x:Class="MahAppsTestt.Windows2"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      Title="第二个窗口"
+                      Height="350"
+                      Width="525">
+    <Grid>
+        <StackPanel Height="200">
+            <CheckBox Content="是否允许关闭当前进程" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="Ck_isShutDown"></CheckBox>
+        </StackPanel>
+    </Grid>
+</Controls:MetroWindow>
